@@ -1,0 +1,547 @@
+<resources>
+    <string name="app_name">Currency Popup</string>
+
+        <string-array name="countries_array">
+            <item>AFGHANISTAN</item>
+            <item>ALAND ISLANDS</item>
+            <item>ALBANIA</item>
+            <item>ALGERIA</item>
+            <item>AMERICAN SAMOA</item>
+            <item>ANDORRA</item>
+            <item>ANGOLA</item>
+            <item>ANGUILLA</item>
+            <item>ANTARCTICA</item>
+            <item>ANTIGUA AND BARBUDA</item>
+            <item>ARGENTINA</item>
+            <item>ARMENIA</item>
+            <item>ARUBA</item>
+            <item>AUSTRALIA</item>
+            <item>AUSTRIA</item>
+            <item>AZERBAIJAN</item>
+            <item>BAHAMAS (THE)</item>
+            <item>BAHRAIN</item>
+            <item>BANGLADESH</item>
+            <item>BARBADOS</item>
+            <item>BELARUS</item>
+            <item>BELGIUM</item>
+            <item>BELIZE</item>
+            <item>BENIN</item>
+            <item>BERMUDA</item>
+            <item>BHUTAN</item>
+            <item>BHUTAN</item>
+            <item>BOLIVIA</item>
+            <item>BOLIVIA</item>
+            <item>BONAIRE</item>
+            <item>BOSNIA AND HERZEGOVINA</item>
+            <item>BOTSWANA</item>
+            <item>BOUVET ISLAND</item>
+            <item>BRAZIL</item>
+            <item>BRITISH INDIAN OCEAN TERRITORY </item>
+            <item>BRUNEI DARUSSALAM</item>
+            <item>BULGARIA</item>
+            <item>BURKINA FASO</item>
+            <item>BURUNDI</item>
+            <item>CABO VERDE</item>
+            <item>CAMBODIA</item>
+            <item>CAMEROON</item>
+            <item>CANADA</item>
+            <item>CAYMAN ISLANDS</item>
+            <item>CENTRAL AFRICAN REPUBLIC</item>
+            <item>CHAD</item>
+            <item>CHILE</item>
+            <item>CHILE</item>
+            <item>CHINA</item>
+            <item>CHRISTMAS ISLAND</item>
+            <item>COCOS ISLANDS </item>
+            <item>COLOMBIA</item>
+            <item>COLOMBIA</item>
+            <item>COMOROS (THE)</item>
+            <item>CONGO - THE DEMOCRATIC REPUBLIC</item>
+            <item>CONGO</item>
+            <item>COOK ISLANDS</item>
+            <item>COSTA RICA</item>
+            <item>COTE DIVOIRE</item>
+            <item>CROATIA</item>
+            <item>CUBA</item>
+            <item>CUBA</item>
+            <item>CURAÇAO</item>
+            <item>CYPRUS</item>
+            <item>CZECHIA</item>
+            <item>DENMARK</item>
+            <item>DJIBOUTI</item>
+            <item>DOMINICA</item>
+            <item>DOMINICAN REPUBLIC</item>
+            <item>ECUADOR</item>
+            <item>EGYPT</item>
+            <item>EL SALVADOR</item>
+            <item>EL SALVADOR</item>
+            <item>EQUATORIAL GUINEA</item>
+            <item>ERITREA</item>
+            <item>ESTONIA</item>
+            <item>ESWATINI</item>
+            <item>ETHIOPIA</item>
+            <item>EUROPEAN UNION</item>
+            <item>FALKLAND ISLANDS</item>
+            <item>FAROE ISLANDS</item>
+            <item>FIJI</item>
+            <item>FINLAND</item>
+            <item>FRANCE</item>
+            <item>FRENCH GUIANA</item>
+            <item>FRENCH POLYNESIA</item>
+            <item>FRENCH SOUTHERN TERRITORIES</item>
+            <item>GABON</item>
+            <item>GAMBIA</item>
+            <item>GEORGIA</item>
+            <item>GERMANY</item>
+            <item>GHANA</item>
+            <item>GIBRALTAR</item>
+            <item>GREECE</item>
+            <item>GREENLAND</item>
+            <item>GRENADA</item>
+            <item>GUADELOUPE</item>
+            <item>GUAM</item>
+            <item>GUATEMALA</item>
+            <item>GUERNSEY</item>
+            <item>GUINEA</item>
+            <item>GUINEA-BISSAU</item>
+            <item>GUYANA</item>
+            <item>HAITI</item>
+            <item>HAITI</item>
+            <item>HEARD ISLAND AND McDONALD ISLANDS</item>
+            <item>HOLY SEE</item>
+            <item>HONDURAS</item>
+            <item>HONG KONG</item>
+            <item>HUNGARY</item>
+            <item>ICELAND</item>
+            <item>INDIA</item>
+            <item>INDONESIA</item>
+            <item>INTERNATIONAL MONETARY FUND</item>
+            <item>IRAN</item>
+            <item>IRAQ</item>
+            <item>IRELAND</item>
+            <item>ISLE OF MAN</item>
+            <item>ISRAEL</item>
+            <item>ITALY</item>
+            <item>JAMAICA</item>
+            <item>JAPAN</item>
+            <item>JERSEY</item>
+            <item>JORDAN</item>
+            <item>KAZAKHSTAN</item>
+            <item>KENYA</item>
+            <item>KIRIBATI</item>
+            <item>KOREA-THE DEMOCRATIC PEOPLES REPUBLIC OF</item>
+            <item>KOREA-THE REPUBLIC OF</item>
+            <item>KUWAIT</item>
+            <item>KYRGYZSTAN</item>
+            <item>LAO PEOPLES DEMOCRATIC REPUBLIC</item>
+            <item>LATVIA</item>
+            <item>LEBANON</item>
+            <item>LESOTHO</item>
+            <item>LESOTHO</item>
+            <item>LIBERIA</item>
+            <item>LIBYA</item>
+            <item>LIECHTENSTEIN</item>
+            <item>LITHUANIA</item>
+            <item>LUXEMBOURG</item>
+            <item>MACAO</item>
+            <item>MACEDONIA</item>
+            <item>MADAGASCAR</item>
+            <item>MALAWI</item>
+            <item>MALAYSIA</item>
+            <item>MALDIVES</item>
+            <item>MALI</item>
+            <item>MALTA</item>
+            <item>MARSHALL ISLANDS</item>
+            <item>MARTINIQUE</item>
+            <item>MAURITANIA</item>
+            <item>MAURITIUS</item>
+            <item>MAYOTTE</item>
+            <item>MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP</item>
+            <item>MEXICO</item>
+            <item>MEXICO</item>
+            <item>MICRONESIA</item>
+            <item>MOLDOVA</item>
+            <item>MONACO</item>
+            <item>MONGOLIA</item>
+            <item>MONTENEGRO</item>
+            <item>MONTSERRAT</item>
+            <item>MOROCCO</item>
+            <item>MOZAMBIQUE</item>
+            <item>MYANMAR</item>
+            <item>NAMIBIA</item>
+            <item>NAMIBIA</item>
+            <item>NAURU</item>
+            <item>NEPAL</item>
+            <item>NETHERLANDS</item>
+            <item>NEW CALEDONIA</item>
+            <item>NEW ZEALAND</item>
+            <item>NICARAGUA</item>
+            <item>NIGER</item>
+            <item>NIGERIA</item>
+            <item>NIUE</item>
+            <item>NORFOLK ISLAND</item>
+            <item>NORTHERN MARIANA ISLANDS</item>
+            <item>NORWAY</item>
+            <item>OMAN</item>
+            <item>PAKISTAN</item>
+            <item>PALAU</item>
+            <item>PALESTINE</item>
+            <item>PANAMA</item>
+            <item>PANAMA</item>
+            <item>PAPUA NEW GUINEA</item>
+            <item>PARAGUAY</item>
+            <item>PERU</item>
+            <item>PHILIPPINES</item>
+            <item>PITCAIRN</item>
+            <item>POLAND</item>
+            <item>PORTUGAL</item>
+            <item>PUERTO RICO</item>
+            <item>QATAR</item>
+            <item>REUNION</item>
+            <item>ROMANIA</item>
+            <item>RUSSIAN FEDERATION</item>
+            <item>RWANDA</item>
+            <item>SAINT BARTHELEMY</item>
+            <item>SAINT HELENA</item>
+            <item>SAINT KITTS AND NEVIS</item>
+            <item>SAINT LUCIA</item>
+            <item>SAINT MARTIN</item>
+            <item>SAINT PIERRE AND MIQUELON</item>
+            <item>SAINT VINCENT AND THE GRENADINES</item>
+            <item>SAMOA</item>
+            <item>SAN MARINO</item>
+            <item>SAO TOME AND PRINCIPE</item>
+            <item>SAUDI ARABIA</item>
+            <item>SENEGAL</item>
+            <item>SERBIA</item>
+            <item>SEYCHELLES</item>
+            <item>SIERRA LEONE</item>
+            <item>SINGAPORE</item>
+            <item>SINT MAARTEN</item>
+            <item>SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS SUCRE</item>
+            <item>SLOVAKIA</item>
+            <item>SLOVENIA</item>
+            <item>SOLOMON ISLANDS</item>
+            <item>SOMALIA</item>
+            <item>SOUTH AFRICA</item>
+            <item>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</item>
+            <item>SOUTH SUDAN</item>
+            <item>SPAIN</item>
+            <item>SRI LANKA</item>
+            <item>SUDAN (THE)</item>
+            <item>SURINAME</item>
+            <item>SVALBARD AND JAN MAYEN</item>
+            <item>SWEDEN</item>
+            <item>SWITZERLAND</item>
+            <item>SWITZERLAND</item>
+            <item>SWITZERLAND</item>
+            <item>SYRIAN ARAB REPUBLIC</item>
+            <item>TAIWAN</item>
+            <item>TAJIKISTAN</item>
+            <item>TANZANIA</item>
+            <item>THAILAND</item>
+            <item>TIMOR-LESTE</item>
+            <item>TOGO</item>
+            <item>TOKELAU</item>
+            <item>TONGA</item>
+            <item>TRINIDAD AND TOBAGO</item>
+            <item>TUNISIA</item>
+            <item>TURKEY</item>
+            <item>TURKMENISTAN</item>
+            <item>TURKS AND CAICOS ISLANDS</item>
+            <item>TUVALU</item>
+            <item>UGANDA</item>
+            <item>UKRAINE</item>
+            <item>UNITED ARAB EMIRATES</item>
+            <item>UNITED KINGDOM</item>
+            <item>UNITED STATES MINOR OUTLYING ISLANDS</item>
+            <item>UNITED STATES OF AMERICA</item>
+            <item>UNITED STATES OF AMERICA</item>
+            <item>URUGUAY</item>
+            <item>URUGUAY</item>
+            <item>URUGUAY</item>
+            <item>UZBEKISTAN</item>
+            <item>VANUATU</item>
+            <item>VENEZUELA</item>
+            <item>VIET NAM</item>
+            <item>VIRGIN ISLANDS</item>
+            <item>VIRGIN ISLANDS</item>
+            <item>WALLIS AND FUTUNA</item>
+            <item>WESTERN SAHARA</item>
+            <item>YEMEN</item>
+            <item>ZAMBIA</item>
+            <item>ZIMBABWE</item>
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>AFN</item>
+        <item>EUR</item>
+        <item>ALL</item>
+        <item>DZD</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>AOA</item>
+        <item>XCD</item>
+        <item>NA</item>
+        <item>XCD</item>
+        <item>ARS</item>
+        <item>AMD</item>
+        <item>AWG</item>
+        <item>AUD</item>
+        <item>EUR</item>
+        <item>AZN</item>
+        <item>BSD</item>
+        <item>BHD</item>
+        <item>BDT</item>
+        <item>BBD</item>
+        <item>BYN</item>
+        <item>EUR</item>
+        <item>BZD</item>
+        <item>XOF</item>
+        <item>BMD</item>
+        <item>INR</item>
+        <item>BTN</item>
+        <item>BOB</item>
+        <item>BOV</item>
+        <item>USD</item>
+        <item>BAM</item>
+        <item>BWP</item>
+        <item>NOK</item>
+        <item>BRL</item>
+        <item>USD</item>
+        <item>BND</item>
+        <item>BGN</item>
+        <item>XOF</item>
+        <item>BIF</item>
+        <item>CVE</item>
+        <item>KHR</item>
+        <item>XAF</item>
+        <item>CAD</item>
+        <item>KYD</item>
+        <item>XAF</item>
+        <item>XAF</item>
+        <item>CLP</item>
+        <item>CLF</item>
+        <item>CNY</item>
+        <item>AUD</item>
+        <item>AUD</item>
+        <item>COP</item>
+        <item>COU</item>
+        <item>KMF</item>
+        <item>CDF</item>
+        <item>XAF</item>
+        <item>NZD</item>
+        <item>CRC</item>
+        <item>XOF</item>
+        <item>HRK</item>
+        <item>CUP</item>
+        <item>CUC</item>
+        <item>ANG</item>
+        <item>EUR</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>DJF</item>
+        <item>XCD</item>
+        <item>DOP</item>
+        <item>USD</item>
+        <item>EGP</item>
+        <item>SVC</item>
+        <item>USD</item>
+        <item>XAF</item>
+        <item>ERN</item>
+        <item>EUR</item>
+        <item>SZL</item>
+        <item>ETB</item>
+        <item>EUR</item>
+        <item>FKP</item>
+        <item>DKK</item>
+        <item>FJD</item>
+        <item>EUR</item>
+        <item>EUR</item>
+        <item>EUR</item>
+        <item>XPF</item>
+        <item>EUR</item>
+        <item>XAF</item>
+        <item>GMD</item>
+        <item>GEL</item>
+        <item>EUR</item>
+        <item>GHS</item>
+        <item>GIP</item>
+        <item>EUR</item>
+        <item>DKK</item>
+        <item>XCD</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GTQ</item>
+        <item>GBP</item>
+        <item>GNF</item>
+        <item>XOF</item>
+        <item>GYD</item>
+        <item>HTG</item>
+        <item>USD</item>
+        <item>AUD</item>
+        <item>EUR</item>
+        <item>HNL</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>ISK</item>
+        <item>INR</item>
+        <item>IDR</item>
+        <item>XDR</item>
+        <item>IRR</item>
+        <item>IQD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>ILS</item>
+        <item>EUR</item>
+        <item>JMD</item>
+        <item>JPY</item>
+        <item>GBP</item>
+        <item>JOD</item>
+        <item>KZT</item>
+        <item>KES</item>
+        <item>AUD</item>
+        <item>KPW</item>
+        <item>KRW</item>
+        <item>KWD</item>
+        <item>KGS</item>
+        <item>LAK</item>
+        <item>EUR</item>
+        <item>LBP</item>
+        <item>LSL</item>
+        <item>ZAR</item>
+        <item>LRD</item>
+        <item>LYD</item>
+        <item>CHF</item>
+        <item>EUR</item>
+        <item>EUR</item>
+        <item>MOP</item>
+        <item>MKD</item>
+        <item>MGA</item>
+        <item>MWK</item>
+        <item>MYR</item>
+        <item>MVR</item>
+        <item>XOF</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>MRU</item>
+        <item>MUR</item>
+        <item>EUR</item>
+        <item>XUA</item>
+        <item>MXN</item>
+        <item>MXV</item>
+        <item>USD</item>
+        <item>MDL</item>
+        <item>EUR</item>
+        <item>MNT</item>
+        <item>EUR</item>
+        <item>XCD</item>
+        <item>MAD</item>
+        <item>MZN</item>
+        <item>MMK</item>
+        <item>NAD</item>
+        <item>ZAR</item>
+        <item>AUD</item>
+        <item>NPR</item>
+        <item>EUR</item>
+        <item>XPF</item>
+        <item>NZD</item>
+        <item>NIO</item>
+        <item>XOF</item>
+        <item>NGN</item>
+        <item>NZD</item>
+        <item>AUD</item>
+        <item>USD</item>
+        <item>NOK</item>
+        <item>OMR</item>
+        <item>PKR</item>
+        <item>USD</item>
+        <item>NA</item>
+        <item>PAB</item>
+        <item>USD</item>
+        <item>PGK</item>
+        <item>PYG</item>
+        <item>PEN</item>
+        <item>PHP</item>
+        <item>NZD</item>
+        <item>PLN</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>QAR</item>
+        <item>EUR</item>
+        <item>RON</item>
+        <item>RUB</item>
+        <item>RWF</item>
+        <item>EUR</item>
+        <item>SHP</item>
+        <item>XCD</item>
+        <item>XCD</item>
+        <item>EUR</item>
+        <item>EUR</item>
+        <item>XCD</item>
+        <item>WST</item>
+        <item>EUR</item>
+        <item>STN</item>
+        <item>SAR</item>
+        <item>XOF</item>
+        <item>RSD</item>
+        <item>SCR</item>
+        <item>SLL</item>
+        <item>SGD</item>
+        <item>ANG</item>
+        <item>XSU</item>
+        <item>EUR</item>
+        <item>EUR</item>
+        <item>SBD</item>
+        <item>SOS</item>
+        <item>ZAR</item>
+        <item>NA</item>
+        <item>SSP</item>
+        <item>EUR</item>
+        <item>LKR</item>
+        <item>SDG</item>
+        <item>SRD</item>
+        <item>NOK</item>
+        <item>SEK</item>
+        <item>CHF</item>
+        <item>CHE</item>
+        <item>CHW</item>
+        <item>SYP</item>
+        <item>TWD</item>
+        <item>TJS</item>
+        <item>TZS</item>
+        <item>THB</item>
+        <item>USD</item>
+        <item>XOF</item>
+        <item>NZD</item>
+        <item>TOP</item>
+        <item>TTD</item>
+        <item>TND</item>
+        <item>TRY</item>
+        <item>TMT</item>
+        <item>USD</item>
+        <item>AUD</item>
+        <item>UGX</item>
+        <item>UAH</item>
+        <item>AED</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USN</item>
+        <item>UYU</item>
+        <item>UYI</item>
+        <item>UYW</item>
+        <item>UZS</item>
+        <item>VUV</item>
+        <item>VES</item>
+        <item>VND</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>XPF</item>
+        <item>MAD</item>
+        <item>YER</item>
+        <item>ZMW</item>
+        <item>ZWL</item>
+    </string-array>
+</resources>
